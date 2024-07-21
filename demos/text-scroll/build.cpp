@@ -4,5 +4,5 @@ const char* rpath = "-Wl,-rpath,'$ORIGIN'/../../raylib/lib";
 
 int main(){
 
-    Cmd("gcc").arg(cflags).arg(rpath).arg("gradient.c").args({"-o", "gradient", "-lraylib"}).echo().exec();
+    Cmd("gcc").arg(cflags).arg(rpath).arg("text-scroll.c").args({"-o", "textscrl", "-lraylib"}).echo().exec();
 }

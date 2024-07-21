@@ -155,4 +155,8 @@ void cpm_submodule(const char* folder, std::vector<const char*> args){
 
         cpm_log(Loglevel::CPM_MSG, "=====================END SUBMODULE=====================\n");
     }
+
+}
+
+void CPM_REBUILD_SELF(int argc, char** argv){
 }
